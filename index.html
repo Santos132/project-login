@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/media-query.css" />
+  </head>
+  <body>
+    <main>
+      <section></section>
+      <section id="screen">
+        <h1>Login</h1>
+        <p id="msg">
+          Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder
+          fazer configurações no seu ambiente.
+        </p>
+        <form action="post" autocomplete="on">
+          <p>
+            <label for="iemail"><img src="" alt="" /></label>
+            <input
+              type="email"
+              name="email"
+              id="iemail"
+              required
+              autocomplete="email"
+              placeholder="email"
+              size="15"
+              max="35"
+            />
+          </p>
+          <p>
+            <label for="ipass"><img src="" alt="" /></label>
+            <input
+              type="password"
+              name="pass"
+              id="ipass"
+              required
+              autocomplete="current-password"
+              required
+              minlength="8"
+              size="15"
+              placeholder="password"
+            />
+          </p>
+          <p>
+            <input type="submit" value="Entrar" id="enter" />
+            <input type="button" value="Esqueci a senha" id="reset" />
+          </p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
