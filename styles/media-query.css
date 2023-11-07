@@ -38,11 +38,30 @@ grandes telas: acima de 1200px*/
    div#form > p {
       font-size: 1.3em;
    }
+   form > a.botao {
+      color: green;
+      border: 2px  solid rgb(152, 219, 151);
+      background-color: white;
+   }
+   input#submit {
+      background-color: rgb(2, 80, 2);
+      color: white;
+   }
+   form > a.botao:hover {
+      background-color: rgb(151, 219, 151);
+      color: black;
+      transition: .5s;
+   }
+   input#submit:hover {
+      background-color: rgb(151, 219, 151);
+      color: black;
+      transition: .5s;
+   }
 }
 
 @media screen and (min-width: 992px) {
    body {
-      background-image: linear-gradient(to bottom, white, black);
+      background-image: linear-gradient(to bottom,white, black);
    }
    main {
       width: 950px;
@@ -64,5 +83,26 @@ grandes telas: acima de 1200px*/
 
    div#form > p {
       font-size: 1.4em;
+   }
+
+   form > a.botao {
+      background-color: white;
+      border: 1px solid black;
+   }
+   input#submit {
+      background-color: black;
+      color: white;
+   }
+   form > a.botao:hover {
+      background-color: black;
+      border: 1px solid black;
+      color: white;
+      transition: .5s;
+   }
+   input#submit:hover {
+      background-color: white;
+      border: 1px solid black;
+      color: black;
+      transition: .5s;
    }
 }
