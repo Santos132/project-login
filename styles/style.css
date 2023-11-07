@@ -33,14 +33,14 @@ main {
    position: absolute;
    top: 50%;
    left: 50%;
-   transform: translate(-50%, -50%);
 
    background-color: white;
-   width: 250px;
+   width: 275px;
    height: 515px;
    border-radius: 20px;
    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.514);
 
+   transform: translate(-50%, -50%);
    transition: width .3s, height .3s;
    transition-timing-function: ease;
 }
@@ -69,16 +69,42 @@ div#form > p {
 }
 
 form > div.field {
-   background-color: rgb(71, 2, 71);
+   background-color: rgb(122, 26, 122);
+   border: 3px solid rgb(122, 26, 122);
    display: block;
    width: 100%;
    height: 40px;
-   border-radius: 5px;
+   border-radius: 10px;
    margin: 5px 0px;
 }
 
 div.field > label {
    display: none;
+}
+
+div.field > i {
+   color: white;
+   font-size: 2em;
+   width: 40px;
+   padding: 5px;
+   
+   transform: translateY(-4px);
+}
+
+div.field > input {
+   background-color: rgb(53, 1, 53);
+   font-size: 1em;
+   width: calc(100% - 1);
+   height: 100%;
+
+   border: 0px;
+   border-radius: 10px;
+   padding: 4px;
+   transform: translateY(-15px);
+}
+
+div.field > input:focus-within {
+   background-color: white;
 }
 input#ipass {
    margin-bottom: 10px;

@@ -19,6 +19,7 @@ grandes telas: acima de 1200px*/
    }
    main {
       width: 80vw;
+      height: 380px;
    }
    main > div#img {
       background-image:  url(../imagems/img05.jpeg);
@@ -44,8 +45,8 @@ grandes telas: acima de 1200px*/
       background-color: white;
    }
    input#submit {
-      background-color: rgb(2, 80, 2);
-      color: white;
+      background-color: rgb(151, 219, 151);
+      color: black;
    }
    form > a.botao:hover {
       background-color: rgb(151, 219, 151);
@@ -53,10 +54,18 @@ grandes telas: acima de 1200px*/
       transition: .5s;
    }
    input#submit:hover {
-      background-color: rgb(151, 219, 151);
-      color: black;
+      background-color: rgb(2, 80, 2);
+      color: white;
       transition: .5s;
    }
+   div.field > input {
+      background-color: rgb(2, 80, 2);
+   }
+   form > div.field {
+      background-color: rgb(151, 219, 151);
+      border: 3px solid rgb(151, 219, 151);
+   }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -65,6 +74,7 @@ grandes telas: acima de 1200px*/
    }
    main {
       width: 950px;
+      height: 450px;
    }
    main > div#img {
       background-image: url(../imagems/img06.jpeg);
@@ -104,5 +114,12 @@ grandes telas: acima de 1200px*/
       border: 1px solid black;
       color: black;
       transition: .5s;
+   }
+   div.field > input {
+      background-color: white;
+   }
+   form > div.field {
+      background-color: black;
+      border: 3px solid black;
    }
 }
