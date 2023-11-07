@@ -119,7 +119,7 @@ grandes telas: acima de 1200px*/
       background-color: white;
    }
    form > div.field {
-      background-color: black;
       border: 3px solid black;
+      background-color: black;
    }
 }
