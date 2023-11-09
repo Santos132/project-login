@@ -100,7 +100,7 @@ div.field > input {
    border: 0px;
    border-radius: 10px;
    padding: 4px;
-   transform: translateY(-14.5px);
+   transform: translateY(-14px);
 }
 
 div.field > input:focus-within {
