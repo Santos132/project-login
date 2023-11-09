@@ -94,13 +94,13 @@ div.field > i {
 div.field > input {
    background-color: rgb(53, 1, 53);
    font-size: 1em;
-   width: calc(100% - 45px);
+   width: calc(100% - 48px);
    height: 100%;
 
    border: 0px;
    border-radius: 10px;
    padding: 4px;
-   transform: translateY(-15px);
+   transform: translateY(-14.5px);
 }
 
 div.field > input:focus-within {
